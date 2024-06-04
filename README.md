@@ -1,5 +1,10 @@
 # img-patch
 
+Partially fix corrupted image headers (if the image filetype is recognized and supported)
+
+Supported image types:
+- bmp
+
 ## Building
 Build the project with g++ by running `make`. To speed up the build, you can try using the -j flag.
 ```sh
